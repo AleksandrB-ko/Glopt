@@ -1,0 +1,77 @@
+.footer {
+	height: 201px;
+	background: url("../img//footer_bg.jpg") center (center / cover) no-repeat;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 24px;
+	}
+	&__wrapper_2 {
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+		padding-top: 30px;
+	}
+
+	&__name {
+		font-size: 16px;
+		font-weight: 700;
+		color: #ffffff;
+		padding-left: 43px;
+	}
+
+	&__phone {
+		padding-left: 220px;
+	}
+
+	&__descr {
+		font-size: 14px;
+		font-weight: 300;
+		color: #ffffff;
+		text-align: end;
+	}
+
+	&__number {
+		font-size: 19px;
+		font-weight: 700;
+		color: #ffffff;
+	}
+
+	&__divider {
+		width: 1171px;
+		height: 1px;
+		opacity: 0.3;
+		background-color: #ffffff;
+		margin-top: 26px;
+	}
+
+	&__web {
+		opacity: 0.6;
+		font-size: 13px;
+		font-weight: 300;
+		color: #ffffff;
+	}
+
+	&__policy {
+		color: $main-color;
+		a{
+			color: $main-color;
+		}
+	}
+
+	&__webcreated {
+		display: flex;
+		justify-content: end;
+		align-items: center;
+	}
+
+	&__webname {
+		opacity: 0.6;
+		font-size: 13px;
+		line-height: 17px;
+		font-weight: 300;
+		color: #ffffff;
+		padding-right: 10px;
+	}
+}

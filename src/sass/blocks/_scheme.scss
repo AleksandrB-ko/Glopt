@@ -1,0 +1,44 @@
+.scheme {
+    padding: 51px 0 46px 0;
+    background: url("../img/scheme_bg.jpg") center (center / cover) no-repeat;
+    &__title {
+    }
+
+    &__wrapper-all {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__wrapper {
+        width: 240px;
+        height: 160px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__wrapper2{
+        margin-top: 43px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__img {
+    }
+
+    &__header {
+        margin-top: 7px;
+        font-size: 16px;
+        font-weight: 700;
+        color: $main-color;
+        text-align: center;
+    }
+
+    &__subheader {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+}

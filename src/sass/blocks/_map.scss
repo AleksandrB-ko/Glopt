@@ -1,0 +1,54 @@
+.map {
+	position: relative;
+	height: 500px;
+	background: url("../img/map.jpg") center (center / cover) no-repeat;
+	z-index: 100;
+    
+	
+
+	&__adress {
+		height: 158px;
+		padding: 187px 0px 0 1095px ;
+		z-index: 2;
+	}
+
+	&__img {
+		position: absolute;
+		top: 228px;
+		left: 947px;
+        
+	}
+
+	&__img-logo {
+		position: absolute;
+		top: 238px;
+		left: 958px;
+	}
+	&__descr {
+		position: absolute;
+		top: 170px;
+		left: 1033px;
+		z-index: -1;
+	}
+
+	&__header {
+		font-size: 16px;
+		font-weight: 700;
+		color: $main-color;
+	}
+
+	&__subheader {
+		font-size: 14px;
+		font-weight: 300;
+		margin-top: 7px;
+	}
+
+	&__email {
+		margin-top: 7px;
+		color:$main-color;
+		&:hover{
+			color:$main-color;
+		}
+		
+	}
+}

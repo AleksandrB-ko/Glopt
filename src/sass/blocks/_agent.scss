@@ -1,0 +1,41 @@
+.agent {
+    position: relative;
+    height: 342px;
+    padding: 79px 0 75px 0;
+    background: url("../img/agent_bg.jpg") center (center / cover) no-repeat;
+
+    img {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    &__img {
+        &::before {
+            content: "";
+            position: absolute;
+            top: 58px;
+            border-radius: 50%;
+            width: 102px;
+            height: 102px;
+            border: 1px solid #ffffff;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+        }
+    }
+    &__title {
+        margin-top: 50px;
+        font-size: 26px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+}
